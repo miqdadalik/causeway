@@ -1,0 +1,80 @@
+{
+  "name": "causewayui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:dev",
+    "build:dev": "webpack --env.server dev",
+    "build:prod": "webpack --env.server prod",
+    "start": "live-server --entry-file=index.html --port=8000 dist",
+    "watch": "npm run watch:dev",
+    "watch:dev": "webpack --watch --env.server dev",
+    "watch:prod": "webpack --watch --env.server prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miqdadalik/causeway.git"
+  },
+  "author": "Miqdad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miqdadalik/causeway/issues"
+  },
+  "homepage": "https://github.com/miqdadalik/causeway#readme",
+  "dependencies": {
+    "@angular/common": "4.2.6",
+    "@angular/compiler": "4.2.6",
+    "@angular/core": "4.2.6",
+    "@angular/forms": "4.2.6",
+    "@angular/http": "4.2.6",
+    "@angular/platform-browser": "4.2.6",
+    "@angular/platform-browser-dynamic": "4.2.6",
+    "@angular/router": "4.2.6",
+    "angular2-highcharts": "0.5.5",
+    "core-js": "2.4.1",
+    "font-awesome": "4.7.0",
+    "jquery": "^3.2.1",
+    "rxjs": "5.4.2",
+    "zone.js": "0.8.12"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.9",
+    "@types/node": "8.0.3",
+    "@types/source-map": "0.5.0",
+    "@types/uglify-js": "2.6.29",
+    "@types/webpack": "3.0.4",
+    "angular-router-loader": "0.6.0",
+    "angular2-template-loader": "0.6.2",
+    "assets-webpack-plugin": "3.5.1",
+    "autoprefixer": "7.1.2",
+    "awesome-typescript-loader": "3.2.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "0.1.16",
+    "codelyzer": "3.1.2",
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.28.4",
+    "file-loader": "0.11.2",
+    "html-webpack-plugin": "2.29.0",
+    "live-server": "1.2.0",
+    "node-sass": "4.5.3",
+    "postcss-loader": "2.0.6",
+    "raw-loader": "0.5.1",
+    "rimraf": "2.6.1",
+    "sass-lint": "1.10.2",
+    "sass-loader": "6.0.6",
+    "script-ext-html-webpack-plugin": "1.8.3",
+    "style-loader": "0.18.2",
+    "tslint": "5.5.0",
+    "typedoc": "0.7.1",
+    "typescript": "2.4.1",
+    "webpack": "3.1.0",
+    "webpack-md5-hash": "0.0.5",
+    "webpack-merge": "4.1.0"
+  },
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 4"
+  }
+}

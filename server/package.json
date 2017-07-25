@@ -1,0 +1,16 @@
+{
+  "name": "CausewayApiServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "author": "Miqdad",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security"
+  }
+}
